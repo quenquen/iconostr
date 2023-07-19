@@ -12,12 +12,20 @@ How does it work?
 
 1.Start by downloading the package.
 
-2.Include the font stylesheet into the header of your page:
+2. Add the fonts folder and iconostr.css file in your project main folder. 
 
-```<link rel="stylesheet" href="iconostr.css">```
+3. Include the font stylesheet into the header of your page:
 
-3.Add the nstr markup ```<i class="nstr-iconname"></i>```.
+```<link rel="stylesheet" href="src/iconostr.css">```
 
+4. Add the nstr markup ```<i class="nstr-iconname"></i>```.
+
+### CDN 
+You can also use the icons by simply including the CDN link in your ```head```:
+
+```html 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/quenquen/iconostr@main/iconostr.css"> 
+``` 
 
 ## Using Icons
 
