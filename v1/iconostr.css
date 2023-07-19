@@ -1,0 +1,478 @@
+/*!
+  * IcoNostr v1.0 LITE
+  * https://bcl.social/iconostr
+  *
+  * Copyright (c) 2023 BCL.SOCIAL
+  * Licensed under the MIT license
+  * Icons distributed by CC BY-SA 4.0
+ */
+ 
+
+@font-face {
+  font-family: 'iconostr';
+  src:  url('fonts/iconostr.eot?fkeb2h');
+  src:  url('fonts/iconostr.eot?fkeb2h#iefix') format('embedded-opentype'),
+    url('fonts/iconostr.ttf?fkeb2h') format('truetype'),
+    url('fonts/iconostr.woff?fkeb2h') format('woff'),
+    url('fonts/iconostr.svg?fkeb2h#iconostr') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'iconostr' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+       [class^="nstr-"],
+       [class*=" nstr-"] {
+           display: inline-block;
+           width: 1em;
+           height: 1em;
+           stroke-width: 0;
+           stroke: currentColor;
+           fill: currentColor;
+       }
+
+
+
+/* SCALABILITY */
+  
+.nstr-lg {
+  font-size: 1.25em;
+  line-height: 0.05em;
+  vertical-align: -0.075em;
+}
+
+.nstr-1x {
+  font-size: 1em;
+}
+
+.nstr-2x {
+  font-size: 2em;
+}
+
+.nstr-3x {
+  font-size: 3em;
+}
+
+.nstr-4x {
+  font-size: 4em;
+}
+
+.nstr-5x {
+  font-size: 5em;
+}
+
+.nstr-6x {
+  font-size: 6em;
+}
+
+.nstr-7x {
+  font-size: 7em;
+}
+
+.nstr-8x {
+  font-size: 8em;
+}
+
+.nstr-9x {
+  font-size: 9em;
+}
+
+.nstr-10x {
+  font-size: 10em;
+}
+
+.nstr-2xs {
+  font-size: 0.625em;
+  line-height: 0.1em;
+  vertical-align: 0.225em;
+  }
+  
+.nstr-xs {
+  font-size: 0.75em;
+  line-height: 0.08333em;
+  vertical-align: 0.125em;
+  }
+  
+.nstr-sm {
+  font-size: 0.875em;
+  line-height: 0.07143em;
+  vertical-align: 0.05357em;
+  }
+
+.nstr-xl {
+  font-size: 1.5em;
+  line-height: 0.04167em;
+  vertical-align: -0.125em;
+  }
+
+.nstr-2xl {
+  font-size: 2em;
+  line-height: 0.03125em;
+  vertical-align: -0.1875em;
+  }
+
+.nstr-fw {
+  text-align: center;
+  width: 1.25em;
+  }
+
+/* LISTS, BORDER AND STACK */
+
+.nstr-ul {
+  padding-left: 0;
+  margin-left: 2.14285714em;
+  list-style-type: none;
+  }
+
+.nstr-ul > li {
+  position: relative;
+}
+
+.nstr-li {
+  position: absolute;
+  left: -2.14285714em;
+  width: 2.14285714em;
+  top: 0.14285714em;
+  text-align: center;
+}
+
+.nstr-li.nstr-lg {
+  left: -1.85714286em;
+}
+
+.nstr-border {
+  padding: .2em .25em .15em;
+  border: solid 0.07em #eaeaea;
+  border-radius: .1em;
+}
+
+.nstr-border-circle {
+    padding: .25em;
+    border: .07em solid rgba(0,0,0,.1);
+    border-radius: 50%;
+}
+  
+.nstr-stack {
+  position: relative;
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  vertical-align: middle;
+}
+
+.nstr-stack-1x,
+.nstr-stack-2x {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.nstr-stack-1x {
+  line-height: inherit;
+}
+
+.nstr-stack-2x {
+  font-size: 2em;
+}
+
+.nstr-pull-left {
+  float: left;
+  margin-right: .3em!important;
+}
+
+.nstr-pull-right {
+  float: right;
+  margin-left: .3em!important;
+}
+
+/* ANIMATIONS */
+
+.nstr-spin {
+  -webkit-animation: nstr-spin 2s infinite linear;
+  -moz-animation: nstr-spin 2s infinite linear;
+  -ms-animation: nstr-spin 2s infinite linear;
+  -o-animation: nstr-spin 2s infinite linear;
+  animation: nstr-spin 2s infinite linear;
+}
+
+@-webkit-keyframes nstr-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+  }
+}
+
+@keyframes nstr-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(359deg);
+  }
+}
+
+.nstr-flip-horizontal {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1);
+  -webkit-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+
+.nstr-flip-vertical {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1);
+  -webkit-transform: scale(1, -1);
+  -ms-transform: scale(1, -1);
+  transform: scale(1, -1);
+}
+
+.nstr-rotate-90 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.nstr-rotate-180 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.nstr-rotate-270 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  -webkit-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+
+/* VISUAL EFFECTS */
+
+.nstr-opacity {
+  filter: opacity(30%);
+}
+.nstr-blur {
+  filter: blur(2px);
+}
+.nstr-brightness {
+  filter: brightness(0.30);
+}
+.nstr-contrast {
+  filter: contrast(180%);
+}
+.nstr-grayscale {
+  filter: invert(51%) sepia(6%) saturate(15%) hue-rotate(14deg) brightness(98%) contrast(88%);
+}
+.nstr-huerotate {
+  filter: hue-rotate(180deg);
+}
+.nstr-invert {
+  filter: invert(100%);
+}
+.nstr-saturate {
+  filter: saturate(7);
+}
+.nstr-sepia {
+  filter: sepia(100%);
+}
+.nstr-shadow {filter: drop-shadow(4px 4px 5px #A21CAF);}
+
+/* COLORS */
+
+.nstr-purple {
+  color: #A21CAF;
+}
+
+.nstr-dpurple {
+  color: #86198F;
+}
+
+.nstr-neonpurple {
+  color: #C724B1;
+}
+
+.nstr-violet {
+  color: #8F00FF;
+}
+
+.nstr-lime {
+  color: #04FF86;
+}
+
+.nstr-green {
+  color: #228B22;
+}
+
+.nstr-green2 {
+  color: #4DC71F;
+}
+
+.nstr-neongreen {
+  color: #0FFF50;
+}
+
+.nstr-chartreuse {
+  color: #7fff00;
+}
+
+.nstr-teal {
+  color: #008080;
+}
+
+.nstr-blue {
+  color: #4A69BD;
+}
+
+.nstr-blue2 {
+  color: #10A8D6;
+}
+
+.nstr-neonblue {
+  color: #1F51FF;
+}
+
+.nstr-aqua {
+  color: #00FFFF;
+}
+
+.nstr-pink {
+  color: #ff0080;
+}
+
+.nstr-lilac {
+  color: #AA98A9;
+}
+
+.nstr-mustard {
+  color: #D7C811;
+}
+
+.nstr-yellow {
+  color: #FFEA00;
+}
+
+.nstr-neonyellow {
+  color: #DFFF00;
+}
+
+.nstr-orange {
+  color: #F28C28;
+}
+
+.nstr-red {
+  color: #C41E3A;
+}
+
+.nstr-neonred {
+  color: #FF3131;
+}
+
+.nstr-cherry {
+  color: #D2042D;
+}
+
+.nstr-marsala {
+  color: #986868;
+}
+
+.nstr-wine {
+  color: #722F37;
+}
+
+.nstr-amora {
+  color: #972F65;
+}
+
+.nstr-gray {
+  color: #E6E6E6;
+}
+
+.nstr-white {
+  color: #F1F1F1;
+}
+
+.nstr-black {
+  color: #262626;
+}
+
+/* ICONS */
+
+.nstr-nostr:before {
+  content: "\e900";
+}
+.nstr-nostrlogo:before {
+  content: "\e901";
+}
+.nstr-nostricon:before {
+  content: "\e902";
+}
+.nstr-iconostr:before {
+  content: "\e903";
+}
+.nstr-nostrice:before {
+  content: "\e904";
+}
+.nstr-alby:before {
+  content: "\e905";
+}
+.nstr-zeus:before {
+  content: "\e906";
+}
+.nstr-nostrband:before {
+  content: "\e907";
+}
+.nstr-iris:before {
+  content: "\e908";
+}
+.nstr-amethyst:before {
+  content: "\e909";
+}
+.nstr-coracle:before {
+  content: "\e90a";
+}
+.nstr-plebstr:before {
+  content: "\e90b";
+}
+.nstr-plebstr2:before {
+  content: "\e90c";
+}
+.nstr-plebstrlogo:before {
+  content: "\e90d";
+}
+.nstr-zap:before {
+  content: "\e90e";
+}
+.nstr-zap-circle:before {
+  content: "\e90f";
+}
+.nstr-bolt:before {
+  content: "\e910";
+}
+.nstr-verified:before {
+  content: "\e911";
+}
+.nstr-verified2:before {
+  content: "\e912";
+}
+.nstr-bitcoin:before {
+  content: "\e913";
+}
+.nstr-wallet:before {
+  content: "\e914";
+}
