@@ -6,7 +6,7 @@ You can add IcoNostr to your project by downloading the assets directly from Git
 
 The icons are licenced using Creative Commons BY-SA-4.0 and font by MIT licence, allowing for use in commercial projects.
 
-**Demo:** [bcl.social/iconostr-demo](https://bcl.social/iconostrdemo)
+**Demo:** [bcl.social/iconostrdemo](https://bcl.social/iconostrdemo)
 
 ## Getting Started
 
