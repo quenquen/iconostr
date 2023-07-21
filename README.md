@@ -4,13 +4,15 @@ The IcoNostr is a free-to-use set that includes icons in solid style, made exclu
 
 You can add IcoNostr to your project by downloading the assets directly from Github or by CDN. Source SVG files are also available.
 
-The icons are licenced using Creative Commons BY-SA-4.0 and fonts by MIT licence, allowing for use in commercial projects.
+The icons are licenced using Creative Commons BY-SA-4.0 and font by MIT licence, allowing for use in commercial projects.
+
+**Demo:** [bcl.social/iconostr-demo](https://bcl.social/iconostrdemo)
 
 ## Getting Started
 
 How does it work? 
 
-1.Start by downloading the package.
+1. Start by downloading the package.
 2. Add the ```fonts folder``` and ```iconostr.css``` file in your project main folder. 
 3. Include the font stylesheet into the ```head``` of your page:
 
